@@ -5,7 +5,10 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-    },
+    },  
+    parserOptions: {
+      "project": "tsconfig.json"
+    }
   },
   plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
   env: {
