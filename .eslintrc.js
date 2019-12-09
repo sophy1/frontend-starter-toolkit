@@ -1,13 +1,16 @@
-const path = require('path');
 module.exports = {
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
+    },  
+    parserOptions: {
+      project: "tsconfig.json"
     }
   },
-  plugins: ['@typescript-eslint','react', 'jsx-a11y'],
+  plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
   env: {
     browser: true,
     jest: true,
@@ -30,5 +33,12 @@ module.exports = {
     },
   },
   rules: {
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      {
+        allowExpressions: true,
+        allowTypedFunctionExpressions: true,
+      },
+    ],
   },
 };
