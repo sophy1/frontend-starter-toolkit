@@ -10,7 +10,7 @@ module.exports = {
       project: "tsconfig.json"
     }
   },
-  plugins: ['@typescript-eslint', '@typescript-eslint/parser','react', 'jsx-a11y'],
+  plugins: ['@typescript-eslint','react', 'jsx-a11y'],
   env: {
     browser: true,
     jest: true,
