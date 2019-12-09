@@ -7,7 +7,7 @@ module.exports = {
       jsx: true,
     },  
     parserOptions: {
-      "project": "tsconfig.json"
+      project: "tsconfig.json"
     }
   },
   plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
