@@ -1,16 +1,10 @@
 const path = require('path');
 module.exports = {
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-    },  
-    parserOptions: {
-
-      project: path.resolve(__dirname, './tsconfig.json'),
-      tsconfigRootDir: __dirname,
     }
   },
   plugins: ['@typescript-eslint','react', 'jsx-a11y'],
