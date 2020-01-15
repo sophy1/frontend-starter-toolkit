@@ -8,7 +8,11 @@ module.exports = {
     },  
     project: "tsconfig.json"
   },
-  plugins: ['@typescript-eslint', 'react', 'jsx-a11y', "you-dont-need-lodash-underscore"],
+  plugins: [
+    '@typescript-eslint', 'react', 'jsx-a11y',
+    "you-dont-need-lodash-underscore", 
+     "chai-friendly"
+  ],
   env: {
     browser: true,
     jest: true,
@@ -25,7 +29,8 @@ module.exports = {
     'prettier',
     'prettier/react',
     'prettier/@typescript-eslint',
-       "plugin:you-dont-need-lodash-underscore/compatible"
+       "plugin:you-dont-need-lodash-underscore/compatible",
+      "plugin:chai-friendly/recommended"
   ],
   settings: {
     react: {
