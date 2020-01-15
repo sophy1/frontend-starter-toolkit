@@ -8,7 +8,7 @@ module.exports = {
     },  
     project: "tsconfig.json"
   },
-  plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
+  plugins: ['@typescript-eslint', 'react', 'jsx-a11y',  "varspacing],
   env: {
     browser: true,
     jest: true,
@@ -25,6 +25,7 @@ module.exports = {
     'prettier',
     'prettier/react',
     'prettier/@typescript-eslint',
+       "plugin:varspacing/recommended"
   ],
   settings: {
     react: {
