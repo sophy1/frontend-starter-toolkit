@@ -8,7 +8,7 @@ module.exports = {
     },  
     project: "tsconfig.json"
   },
-  plugins: ['@typescript-eslint', 'react', 'jsx-a11y',  "varspacing],
+  plugins: ['@typescript-eslint', 'react', 'jsx-a11y',  "varspacing"],
   env: {
     browser: true,
     jest: true,
