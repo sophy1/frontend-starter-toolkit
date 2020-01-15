@@ -8,7 +8,7 @@ module.exports = {
     },  
     project: "tsconfig.json"
   },
-  plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
+  plugins: ['@typescript-eslint', 'react', 'jsx-a11y', "you-dont-need-lodash-underscore"],
   env: {
     browser: true,
     jest: true,
