@@ -8,7 +8,7 @@ module.exports = {
     },  
     project: "tsconfig.json"
   },
-  plugins: ['@typescript-eslint', 'react', 'jsx-a11y',  "varspacing"],
+  plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
   env: {
     browser: true,
     jest: true,
@@ -25,7 +25,7 @@ module.exports = {
     'prettier',
     'prettier/react',
     'prettier/@typescript-eslint',
-       "plugin:varspacing/recommended"
+       "plugin:you-dont-need-lodash-underscore/compatible"
   ],
   settings: {
     react: {
