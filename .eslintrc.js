@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     '@typescript-eslint', 'react', 'jsx-a11y',
     "you-dont-need-lodash-underscore", 
-     //"chai-friendly"
+    "chai-friendly"
   ],
   env: {
     browser: true,
@@ -30,7 +30,7 @@ module.exports = {
     'prettier/react',
     'prettier/@typescript-eslint',
        "plugin:you-dont-need-lodash-underscore/compatible",
-      //"plugin:chai-friendly/recommended"
+        "plugin:chai-friendly/recommended"
   ],
   settings: {
     react: {
